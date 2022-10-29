@@ -1,0 +1,123 @@
+body
+{
+    background-color: beige;
+}
+.main
+{
+    display: flex;
+}
+
+.nav1
+{
+    position: fixed;
+    left: 0px;
+    width: 55px;
+    height: 100vh;
+    z-index: 1000;
+    background-color: white;
+}
+.nav1Logo
+{
+    padding: 20px 0px;
+}
+.nav1Icon
+{
+    font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.nav2
+{
+    position: fixed;
+    background-color: black;
+    left: -250px;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    font-weight: 20px;
+    color: rgb(228, 228, 228);
+    z-index: 999;
+}
+.nav2 ul li
+{
+    list-style: none;
+    padding-top: 25px;
+    cursor: pointer;
+}
+.nav2 .nav2Social 
+{
+    bottom: 50px;
+    left: 20px;
+    color:gray;
+    position: absolute;
+}
+.fa-city
+{
+    color:#e65a50ab;
+}
+
+.member
+{
+    padding: 5;
+    color: #212529;
+    cursor: pointer;
+}
+.fa-bowl-food
+{
+    color: #9ee650ab;
+}
+.btn-success
+{
+    text-decoration: none;
+}
+
+.nav1-social-icon
+{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 11;
+    cursor: pointer;
+}
+.nav1-social-icon >div 
+{
+	padding-top: 10px
+}
+.hovermain
+{
+    overflow: hidden;
+}
+.hoverLay
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(225, 255 , 255 , 0.4);
+    transition: 1s;
+}
+.hovermain:hover .hoverLay
+{
+    display: block;
+    transform: translateY(-100%);
+}
+
+
+
+
+.sub
+{
+        color: #dc3545;
+        border: 1px solid #dc3545;
+}
+
+.searchby
+{
+    border: none !important;
+    border-bottom: white 1px solid !important;
+    border-radius: 0px !important;
+}
+
